@@ -1,0 +1,75 @@
+@media screen and (max-width: 420px) {
+  .menuheader .headers {
+    padding: 41px 7%;
+  }
+  .dropdown {
+    width: 240px;
+  }
+
+  .content_image {
+    margin-top: 50px;
+  }
+  .about .about_image {
+    width: 350px;
+    margin: 0 50px;
+    object-fit: cover;
+  }
+
+  .about_image img {
+    width: 100%;
+  }
+  .profess {
+    margin: 0 8% 0 0;
+  }
+  .services {
+    margin: 0 8% 0 0;
+  }
+  .about_image {
+    padding: 0 10% 0 0;
+  }
+  .profess h1 {
+    line-height: 45px;
+  }
+
+  .end_box .box_icons {
+    display: grid;
+    grid-template-columns: repeat(5, 20px);
+  }
+
+  .end_title {
+    display: none;
+  }
+  .contact .contact_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  .contact .contact_content {
+    width: 100%;
+  }
+
+  .contact .contact_content .box_input {
+    margin: 0 15px 0 0;
+  }
+  .contact .contact_content .box_input .row_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .contact_content .box_input .row_input input {
+    width: calc(100% + 40px);
+    margin: 10px 0;
+  }
+
+  .contact_content input {
+    width: 100%;
+  }
+  .contact_content .message {
+    width: 95%;
+    margin-left: 50px;
+  }
+}

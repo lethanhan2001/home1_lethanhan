@@ -1,0 +1,72 @@
+@media screen and (max-width: 729px) {
+  .services .box_list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    gap: 50px 0;
+  }
+
+  .services .box_list .box1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .about {
+    margin: 0 4% 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about .about_content,
+  .about .about_image {
+    width: 100%;
+  }
+
+  .profess {
+    margin: 0 5% 0 0;
+  }
+
+  .profess .box_list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    gap: 50px 0;
+  }
+
+  .profess .box_list .box1 {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .box_input .row_input {
+    margin: 0 13%;
+  }
+
+  .main_footer .leftfooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .leftfooter .headers {
+    width: 100%;
+  }
+  .headers .left_content {
+    margin-left: 0;
+  }
+
+  .leftfooter .navigation {
+    width: 100%;
+  }
+
+  .end {
+    margin-top: 20px;
+  }
+
+  .end .end_box .box_icons {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,148 @@
+@media screen and (max-width: 1280px) {
+  .menuheader .headers {
+    padding: 41px 10%;
+  }
+
+  .content {
+    margin: 0 10%;
+  }
+  nav {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 10%;
+    font-size: 40px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .menuheader {
+    position: relative;
+  }
+  .dropdown {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    bottom: 0;
+    height: 100%;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 10px 0 10px 0 #f5f0f0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .content {
+    margin: 0 8%;
+  }
+
+  .content .content_image img {
+    width: 100%;
+  }
+
+  .dropdown.active {
+    left: 0;
+  }
+  li {
+    list-style: none;
+    margin: 30px auto;
+  }
+  .dropdown .menutablet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-right: 40px;
+  }
+
+  .bars {
+    display: block;
+    position: absolute;
+    top: 65px;
+    right: 10%;
+    font-size: 40px;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .services .box_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 5% 30px 9%;
+    gap: 50px 0;
+  }
+
+  .profess .box_list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 5% 30px 9%;
+    gap: 50px 0;
+  }
+  .box_input .row_input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .contact_content {
+    width: 40%;
+    margin-right: 5%;
+  }
+  .contact .contact_images {
+    margin-left: 0;
+    width: 40%;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  /* 
+
+  .row_input input {
+    margin-top: 35px;
+    margin-right: 36%;
+  }
+
+  .row_input input:first-child {
+    margin-right: 30%;
+  }
+
+ 
+
+  .contact .message {
+    width: 90%;
+    height: 142px;
+  }
+
+  .contact_box .contact_content {
+    width: 100%;
+    margin-left: 10%;
+    text-align: center;
+  }
+
+  .contact_box .contact_images {
+    margin: 0 80% 0 0;
+  }
+
+  .contact_images img {
+    width: 450px;
+  }
+
+  .contact .box_input .item_input {
+    margin-right: 5%;
+  }
+
+  .contact .box_input .row_input {
+    margin-left: 17%;
+  } */
+}
